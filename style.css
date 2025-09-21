@@ -1,0 +1,26 @@
+* { font-size: xx-large; }
+
+/* Images centered */
+img {
+  display: block;
+  margin: 0 auto;
+  max-width: 100%;
+
+}
+
+/* Text centered */
+.text-center {
+  text-align: center;
+  margin: 0 auto;
+  width: 90%;
+}
+
+@media only screen and (max-width: 1550px) {
+  img[src="image/1.jpg"] {
+    width: 100%;
+    height: 75px;
+    object-fit: cover;
+    display: block;
+    margin: 0;
+  }
+}
